@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kim's Survey about Ice Cream!</title>
+    <link rel="stylesheet" a href="assets/style.css">
+</head>
+
+  <body>
+   
+      <h1 id="title">Ice Cream Shop Survey Form</h1>
+      
+      <p id="description">Please take a moment to fill out this short survey</p>
+      
+       <main id="main">
+      
+      <form id="survey-form">
+        
+       <label id="name-label" for="name">
+        <p>NAME:</p>
+       </label>
+        <input id="name" type="text" placeholder="Enter Your Name" required>
+        
+       <label id="email-label" for="email">
+        <p>EMAIL:</p>
+        </label>
+        <input id="email" type="email" placeholder="Enter Your Email" required>
+        
+        <label id="number-label" for="number">
+        <p>AGE:</p>
+        </label>
+        <input id="number" type="number" placeholder="Enter Your Age" min="2" max="120" required>
+       
+        <p id="flavor">Please pick one new flavor would you like to try:</p>
+       <select id="dropdown">
+        
+         <option value="default">Dill Pickle</option>
+         <option value="default">Avacado</option>
+         <option value="default">Hamburger</option>
+         <option value="default">Cheese</option>
+         <option value="default">Tuna</option>
+         <option value="default">Corn</option>
+        </select><p>
+        
+        <p id="cone">What type of cone do you prefer?</p>
+        
+          <input type="radio" name="cone" value="1">Sugar Cone</input>
+      <input type="radio" name="cone" value="2">Waffle Cone</input>
+        <br>
+    <input type="radio" name="cone" value="3">No Cone; I Prefer a Bowl</input>
+        
+  <p id="toppings">Which Toppings Do You Like?</p>
+  
+  <input type="checkbox" name="toppings" value="1">Fresh Fruit</input>
+<br>
+<input type="checkbox" name="toppings" value="1">Chocolate Sauce</input>
+<br>
+<input type="checkbox" name="toppings" value="1">Caramel Sauce</input>
+<br>
+<input type="checkbox" name="toppings" value="1">Gummy Bears</input>
+<br>
+<input type="checkbox" name="toppings" value="1">Nuts</input>
+<br>
+<p>
+<textarea id="comment" rows="4" cols="40">Please Add Comments Here</textarea>
+
+<input id="submit" type="submit" value="submit"></input><p/>
+  
+ </form>
+    </main>
+</body>
+</html>
