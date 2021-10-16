@@ -1,11 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
-#title , #description, #name-label, email-label,number-label {
-  font-weight: bolder;
-}
+@import url(https://fonts.googleapis.com/css?family=Cherry+Swash);
 
 body {
   text-align: center;
-  font-family: shadows into light;
+  font-family: 'Cherry Swash';
   background-image: url("https://thumbs.dreamstime.com/z/ice-cream-background-vector-seamless-pattern-35929748.jpg")
 }
 #main {
@@ -18,10 +15,16 @@ body {
   font-size: 20px;
   }
 
+#form {
+display: flex;
+flex-direction: column;  
+}
+
 #name {
   width: 560px;
   padding: 15px;
   border-radius: 10px;
+  
 }
 
 #email {
@@ -62,4 +65,16 @@ body {
   margin-top: 3%;
   background-color: #fa7d7d;
 }
+  
+@media screen and (max-width: 768px) {
+
+}
+
+
+
+
+@media screen and (max-width: 575px) {
+  
+}
+ 
   
